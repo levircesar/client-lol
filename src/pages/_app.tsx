@@ -16,8 +16,9 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
           <Navbar />
           <Sidebar />
         </Flex>
-
-        <Component {...pageProps} />
+        <main>
+          <Component {...pageProps} />
+        </main>
       </Container>
       <GlobalStyle />
     </ThemeProvider>

@@ -9,14 +9,12 @@ import {
   FaDiagnoses
 } from 'react-icons/fa'
 
-import iconImg from '../../public/icon.png'
-
 const Navbar: React.FC = () => {
   return (
     <Container>
       <Box>
         <PlayButton>
-          <img src={iconImg} alt="" />
+          <img src="icon.png" alt="" />
           <button>JOGAR</button>
         </PlayButton>
         <Botoes>
