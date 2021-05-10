@@ -9,13 +9,17 @@ import {
   FaDiagnoses
 } from 'react-icons/fa'
 
-const Navbar: React.FC = () => {
+interface Props {
+  toggleTheme(): void
+}
+const Navbar: React.FC<Props> = ({ toggleTheme }) => {
   return (
     <Container>
       <Box>
         <PlayButton>
           <img src="icon.png" alt="" />
           <button>JOGAR</button>
+          <button onClick={toggleTheme}>Mudar ligth</button>
         </PlayButton>
         <Botoes>
           <FaDiagnoses />

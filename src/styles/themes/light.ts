@@ -1,4 +1,6 @@
 const theme = {
+  title: 'light',
+
   colors: {
     background: '#071f29',
     backgroundSecondary: '#103747',
@@ -10,5 +12,4 @@ const theme = {
     lineSecondary: '#333536'
   }
 }
-
 export default theme
